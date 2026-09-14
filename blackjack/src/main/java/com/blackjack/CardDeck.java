@@ -1,8 +1,9 @@
+package com.blackjack;
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class CardDeck {
-    ArrayList<Integer> cards = new ArrayList<Integer>();
+    ArrayList<Integer> cards = new ArrayList<>();
 
     public CardDeck() {
         // start with all cards in deck
@@ -11,5 +12,15 @@ public class CardDeck {
         }
         // initial shuffle
         Collections.shuffle(cards);
+    }
+
+    public int drawCard() {
+        int drawnCard = cards.get(0);
+        cards.remove(0);
+        return drawnCard;
+    }
+
+    public int getSize() {
+        return cards.size();
     }
 }

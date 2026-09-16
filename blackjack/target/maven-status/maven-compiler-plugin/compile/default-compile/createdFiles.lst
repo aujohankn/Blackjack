@@ -1,5 +1,5 @@
 com\blackjack\Dealer.class
-com\blackjack\Game.class
+com\blackjack\MainUI.class
 com\blackjack\CardDeck.class
 com\blackjack\Main.class
 com\blackjack\Blackjack.class

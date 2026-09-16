@@ -22,4 +22,10 @@ public class BlackjackTest {
         Blackjack game = new Blackjack(1);
         assertEquals(1, game.getPlayers());
     }
+    @Test
+    void testCardIdToString() {
+        Blackjack game = new Blackjack(1);
+        assertEquals("Ace of Hearts", game.cardIdToString(0));
+        assertEquals("King of Hearts", game.cardIdToString(12));
+    }
 }

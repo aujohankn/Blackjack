@@ -23,4 +23,8 @@ public class CardDeck {
     public int getSize() {
         return cards.size();
     }
+
+    public void shuffleCards() {
+        Collections.shuffle(cards);
+    }
 }

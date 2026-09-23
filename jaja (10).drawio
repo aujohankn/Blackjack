@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Side-1" id="75OEIw4s2eFkRJ46kBRr">
+    <mxGraphModel dx="673" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-4" edge="1" parent="1" source="gGTUtI28ViIL8fwRzOoQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fa6800;strokeColor=#C73500;" target="gGTUtI28ViIL8fwRzOoQ-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;fontStyle=1" value="Start Spil" vertex="1">
+          <mxGeometry height="80" width="80" x="160" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-11" edge="1" parent="1" source="gGTUtI28ViIL8fwRzOoQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;sourcePerimeterSpacing=0;strokeWidth=2;fillColor=#fa6800;strokeColor=#C73500;" target="gGTUtI28ViIL8fwRzOoQ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-13" connectable="0" parent="gGTUtI28ViIL8fwRzOoQ-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;labelBackgroundColor=none;fontSize=12;" value="Game Loop" vertex="1">
+          <mxGeometry relative="1" x="-0.225" y="-5" as="geometry">
+            <mxPoint x="35" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;fontStyle=1" value="Afvendt Spiller Input" vertex="1">
+          <mxGeometry height="80" width="80" x="320" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;fontStyle=1" value="Showdown" vertex="1">
+          <mxGeometry height="80" width="80" x="480" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-12" edge="1" parent="1" source="gGTUtI28ViIL8fwRzOoQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fa6800;strokeColor=#C73500;" target="gGTUtI28ViIL8fwRzOoQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;fontStyle=1" value="Reagér på Spiller Input" vertex="1">
+          <mxGeometry height="80" width="80" x="320" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-14" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="330" as="sourcePoint" />
+            <mxPoint x="150" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gGTUtI28ViIL8fwRzOoQ-15" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="330" as="sourcePoint" />
+            <mxPoint x="640" y="329.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

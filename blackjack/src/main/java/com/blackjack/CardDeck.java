@@ -7,7 +7,7 @@ public class CardDeck {
 
     public CardDeck() {
         // start with all cards in deck
-        for (int i = 1; i <= 52; i++) {
+        for (int i = 0; i < 52; i++) {
             cards.add(i);
         }
         // initial shuffle
@@ -15,6 +15,8 @@ public class CardDeck {
     }
 
     public int drawCard() {
+        if (cards.isEmpty()) return 0;
+        
         int drawnCard = cards.get(0);
         cards.remove(0);
         return drawnCard;
